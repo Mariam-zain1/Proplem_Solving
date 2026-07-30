@@ -7,6 +7,7 @@ public class StudentInformationCard {
         String Name=scanner.nextLine();
         System.out.println("Enter your Age:");
         int Age =scanner.nextInt();
+        scanner.nextLine();
         System.out.println("Enter your University:");
         String Uni=scanner.nextLine();
         System.out.println("Enter your Gpa:");
