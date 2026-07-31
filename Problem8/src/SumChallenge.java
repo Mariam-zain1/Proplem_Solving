@@ -9,9 +9,9 @@ public class SumChallenge {
         int oddsum = 0;
         for (int i = 1; i <= num; i++) {
             if (i % 2 == 0) {
-                evensum++;
+                evensum += i;
             } else {
-                oddsum++;
+                oddsum += i;
             }
         }
         System.out.println("Sum of even numbers=" + evensum);
