@@ -8,7 +8,7 @@ public class DigitStatistics {
         int count = 0;
         int sum = 0;
         int largest = 0;
-        int smallest = 0;
+        int smallest = 9;
         while (number > 0) {
             int digit = number % 10;
             count++;
