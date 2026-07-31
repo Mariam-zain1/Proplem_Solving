@@ -1,9 +1,10 @@
 import java.util.Scanner;
-
+import java.util.Random;
 public class GuessTheSecretNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int secretNumber = 73;
+        Random random = new Random();
+        int secretNumber = random.nextInt(100) + 1;
         int guess;
         int attempts = 0;
         do {
